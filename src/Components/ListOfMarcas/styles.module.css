@@ -1,0 +1,7 @@
+.listOfMarcas{
+    overflow: auto;
+    display: none;
+    flex-direction: column;
+    gap: .8rem;
+    
+}
