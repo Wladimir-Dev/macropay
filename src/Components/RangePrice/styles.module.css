@@ -1,0 +1,29 @@
+.rangePrice {
+  width: 100%;
+  border-top: 1px solid var( --borderFilter);
+  padding: 1rem 2rem;
+}
+.rangePrice fieldset {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-style: none;
+  gap: .5rem;
+}
+.rangePrice legend{
+    color: var(--darkBlue);
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.rangePrice input {
+    width: 100%;
+  /* min-width: 50%; */
+  /* max-width: 5rem; */
+  border-radius: 0.5rem;
+  border-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  padding: 1rem;
+}

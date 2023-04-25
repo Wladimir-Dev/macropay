@@ -72,32 +72,16 @@ export const HeartFillIcon = () => {
 }
 export const FilterIcon = () => {
   return (
-    <svg
-      className='MuiSvgIcon-root MuiSvgIcon-fontSizeSmall mui-style-j0m5tb'
-      focusable='false'
-      aria-hidden='true'
-      viewBox='0 0 24 24'
-    >
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M2 3C2 2.44772 2.44772 2 3 2H10C10.5523 2 11 2.44772 11 3V10C11 10.5523 10.5523 11 10 11H3C2.44772 11 2 10.5523 2 10V3ZM4 4V9H9V4H4Z'
-      ></path>
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M13 3C13 2.44772 13.4477 2 14 2H21C21.5523 2 22 2.44772 22 3V10C22 10.5523 21.5523 11 21 11H14C13.4477 11 13 10.5523 13 10V3ZM15 4V9H20V4H15Z'
-      ></path>
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M13 14C13 13.4477 13.4477 13 14 13H21C21.5523 13 22 13.4477 22 14V21C22 21.5523 21.5523 22 21 22H14C13.4477 22 13 21.5523 13 21V14ZM15 15V20H20V15H15Z'
-      ></path>
-      <path
-        fillRule='evenodd'
-        clipRule='evenodd'
-        d='M2 14C2 13.4477 2.44772 13 3 13H10C10.5523 13 11 13.4477 11 14V21C11 21.5523 10.5523 22 10 22H3C2.44772 22 2 21.5523 2 21V14ZM4 15V20H9V15H4Z'
-      ></path>
+    <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+      <g
+        stroke='#000'
+        strokeWidth='1.5'
+        strokeMiterlimit='10'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      >
+        <path d='M2 17.5h5M22 6.5h-5M13 17.5h9M11 6.5H2M10 20.4a3 3 0 1 1 0-6 3 3 0 0 1 0 6ZM14 9.4a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z' />
+      </g>
     </svg>
   )
 }
@@ -111,6 +95,69 @@ export const ArrowIcon = () => {
       data-testid='ChevronRightIcon'
     >
       <path d='M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'></path>
+    </svg>
+  )
+}
+export const StarIcon = () => {
+  return (
+    <svg
+      width='800'
+      height='800'
+      viewBox='0 0 24 24'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='m12 17-6 3 1.5-6L3 9l6.5-.5L12 3l2.5 5.5L21 9l-4.5 5 1.5 6-6-3Z'
+        stroke='#ffc107'
+        strokeWidth='1.5'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+    </svg>
+  )
+}
+export const StarFillIcon = () => {
+  return (
+    <svg
+      width='800'
+      height='800'
+      viewBox='0 0 24 24'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='m12 17.328-5.403 3.286a.75.75 0 0 1-1.12-.813l1.456-6.155-4.796-4.123a.75.75 0 0 1 .428-1.316l6.303-.517 2.44-5.835a.75.75 0 0 1 1.384 0l2.44 5.835 6.303.517a.75.75 0 0 1 .427 1.316l-4.795 4.123 1.456 6.155a.75.75 0 0 1-1.12.813L12 17.328z'
+        fill='#ffc107'
+      />
+    </svg>
+  )
+}
+export const SearchIcon = () => {
+  return (
+    <svg
+      width='800'
+      height='800'
+      viewBox='0 0 24 24'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <circle
+        cx='10'
+        cy='10'
+        r='6'
+        stroke='#000'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <path
+        d='M14.5 14.5 19 19'
+        stroke='#000'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
     </svg>
   )
 }

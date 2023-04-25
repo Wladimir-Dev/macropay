@@ -1,0 +1,38 @@
+@media only screen and (min-width: 768px) {
+  .search {
+    top: 10.5rem;
+    left: 0;
+    right: 0;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: start;
+    gap: 4rem;
+    background-color: rgb(235, 239, 244);
+    padding-top: 3rem;
+    /* position: relative; */
+  }
+  .container {
+    width: 57rem;
+  }
+  .orderContainer {
+    display: flex;
+    border-radius: 0.5rem;
+    border: 2px solid var(--grey);
+    overflow: hidden;
+  }
+  .orderContainer label:nth-child(1) {
+    opacity: 0.5;
+  }
+  .orderContainer label {
+    padding: 1rem;
+    height: fit-content;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-left: 2px solid var(--grey);
+    color: rgb(71, 69, 69);
+  }
+  .container select {
+    width: auto;
+  }
+}

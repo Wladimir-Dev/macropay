@@ -1,0 +1,29 @@
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 2rem 5rem;
+    justify-content: space-between;
+  }
+  .labelCheck {
+    display: none;
+  }
+  .options {
+    visibility: visible;
+    opacity: 1;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    width: auto;
+    gap: 2rem;
+  }
+  .options li{
+    cursor: pointer;
+  }
+  .options li:nth-of-type(1){
+    background-color: var(--darkYellow);
+    color: var(--darkBlue);
+    padding: 1.5rem;
+    border-radius: .8rem;
+    font-weight: 600;
+    
+  }
+}

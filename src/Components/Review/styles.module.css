@@ -1,0 +1,21 @@
+.review{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 1px solid var( --borderFilter);
+}
+.body{
+    display: flex;
+    width: 100%;
+}
+.titleFilter{
+    color: var(--darkBlue);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.review svg{
+width: 2.2rem;
+height: 2.2rem;
+color: var(--yellow);
+}

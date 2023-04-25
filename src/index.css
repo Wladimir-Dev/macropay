@@ -2,6 +2,8 @@
   --darkBlue: #0047ba;
   --yellow: #ffe800;
   --darkYellow: #ffc107;
+  --borderFilter: rgba(0, 0, 0, 0.089);
+  --grey: #7d879c;
 }
 
 * {

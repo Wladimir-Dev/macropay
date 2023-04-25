@@ -1,6 +1,29 @@
-.listOfMarcas{
+.listOfMarcas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 15rem;
+    border-top: 1px solid var( --borderFilter);
+    padding: 1rem 2rem;
+  }
+  
+  .titleFilter {
+    color: var(--darkBlue);
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  .titleFilter svg {
+    width: 1.8rem;
+    rotate: 90deg;
+    align-self: self-end;
+  }
+  
+  
+.marcas{
     overflow: auto;
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: .8rem;
     

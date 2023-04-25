@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import { HeartIcon } from '../Icons'
+import { HeartIcon, StarFillIcon, StarIcon } from '../Icons'
 export const Product = ({ title, price, rating, thumbnail, description }) => {
   return (
     <article className={styles.product}>
@@ -8,7 +8,14 @@ export const Product = ({ title, price, rating, thumbnail, description }) => {
       <div className={styles.body}>
         <div className={styles.description}>
           <h2>{title}</h2>
-          <small>{rating}</small>
+          {/* <small>{rating}</small> */}
+          <div>
+            <StarFillIcon/>
+            <StarFillIcon/>
+            <StarFillIcon/>
+            <StarFillIcon/>
+            <StarIcon />
+          </div>
         </div>
         <span>${price}</span>
       </div>

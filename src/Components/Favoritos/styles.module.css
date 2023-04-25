@@ -1,0 +1,17 @@
+.favoritos {
+  border-top: 1px solid var(--borderFilter);
+  padding: 1rem 2rem;
+}
+.titleFilter {
+  color: var(--darkBlue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  cursor: pointer;
+  gap: .5rem
+}
+.titleFilter svg {
+  width: 1.8rem;
+}
