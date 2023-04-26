@@ -4,9 +4,10 @@
   }
   .options {
     translate: 0;
-    top: 20rem;
+    top: 26rem;
     height: fit-content;
     box-shadow: -3px 2px 26px -11px rgba(0, 0, 0, 0.312);
     padding-bottom: 1rem;
+    padding-top: 0;
   }
 }

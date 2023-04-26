@@ -1,0 +1,49 @@
+.happyCart {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 25rem;
+  box-shadow: -3px 2px 26px -11px rgb(0, 0, 0);
+}
+
+.happyCart label {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.happyCart span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.happyCart .spanRange {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  text-align: start;
+  display: block;
+}
+.happyCart svg {
+  width: 6rem;
+  height: fit-content;
+  fill: var(--darkBlue);
+}
+.happyCart button {
+  border-radius: 0.8rem;
+  background-color: var(--darkYellow);
+  border-style: none;
+  padding: 1.5rem;
+  color: var(--darkBlue);
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  
+}

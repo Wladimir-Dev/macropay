@@ -1,0 +1,89 @@
+@media only screen and (min-width: 768px) {
+  .detailsProduct {
+    padding-top: 20rem;
+    width: 80%;
+  }
+ 
+  .BreadcrumbContainer {
+    justify-content: start;
+  }
+  .generalInformation {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .titleContainer {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .reviesContainer {
+    align-self: flex-start;
+  }
+  .descriptionContainer {
+    justify-content: center;
+  }
+  .descriptionContainer button {
+    align-self: self-end;
+    margin-top: 5rem;
+  }
+  .titleSection {
+    text-align: start;
+  }
+  .body {
+    row-gap: 2;
+  }
+  .bodyDetails {
+    display: flex;
+    gap: 2rem;
+  }
+  .containerImages {
+    min-width: 50%;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+  .containerbodyRight {
+    flex-grow: 1;
+  }
+  .footer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .credito {
+    flex-direction: row;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 95rem;
+  }
+  .conversationContainer {
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 10rem;
+  }
+  .conversationContainer > div {
+   align-items: start; 
+  }
+  .ofertContainer label {
+    text-align: left;
+  }
+  .ofertContainer span {
+    max-width: 25rem;
+  }
+  .socialMediaContainer {
+    justify-content: start;
+    padding: 0;
+  }
+  .containerLinks{
+    align-self: self-start;
+    flex-direction: row;
+    margin-left: -2.5rem;
+  }
+  .containerLinks ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    text-align: start;
+  }
+}

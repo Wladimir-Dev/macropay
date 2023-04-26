@@ -4,8 +4,8 @@ import { Marca } from '../Marca'
 import { ArrowIcon } from '../Icons'
 export const ListOfMarcas = () => {
 
-  const { getMarcas } = useProduct()
-  const marcas = getMarcas()
+  const { getCollection } = useProduct()
+  const marcas = getCollection('brand')
   
   return (
     <section className={styles.listOfMarcas}>

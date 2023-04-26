@@ -26,4 +26,8 @@
     font-weight: 600;
     
   }
+  .containerHeader{
+    display: flex;
+    flex-direction: column;
+  }
 }

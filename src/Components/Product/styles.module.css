@@ -9,10 +9,12 @@
   gap: 1rem;
   position: relative;
   background-color: white;
+  min-height: 30rem;
 }
 .product img {
   object-fit: cover;
   width: 100%;
+  height: 20rem;
 }
 .product span {
   color: var(--darkBlue);
@@ -57,4 +59,5 @@
   border-style: none;
   top: 1rem;
   right: 1rem;
+  cursor: pointer;
 }
