@@ -4,7 +4,7 @@ import { useProduct } from '../../hooks/useProduct'
 
 export const Marca = ({ marca }) => {
   const { setFiltros, filtros, removeMarca } = useProduct()
-
+  const isChecked = filtros.marcas.includes(marca.brand)
   const copia = filtros
 
   const handleCheck = (e) => {
@@ -21,6 +21,7 @@ export const Marca = ({ marca }) => {
         type='checkbox'
         id={marca.brand}
         value={marca.brand}
+        checked={isChecked}
         onChange={handleCheck}
       />
       <label htmlFor={marca.brand}>{marca.brand}</label>

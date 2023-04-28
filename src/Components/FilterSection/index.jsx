@@ -20,7 +20,7 @@ export const FilterSection = () => {
       <div className={`${styles.options} ${tablet.options}`}>
         <ListOfMarcas />
         <RangePrice />
-        <Review />
+        {/* <Review /> */}
         <Favoritos />
       </div>
     </section>
