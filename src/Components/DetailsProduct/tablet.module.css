@@ -37,7 +37,11 @@
   }
   .containerImages {
     min-width: 50%;
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .containerImages img{
+    height: 100%;
   }
   .containerbodyRight {
     flex-grow: 1;

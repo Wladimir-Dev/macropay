@@ -5,7 +5,6 @@ import { getMaxValue } from '../utilities/getMaxValue'
 export const ProductContext = createContext()
 export const ProductProvider = ({ children }) => {
   const [products] = useState(productsData)
-  const [favProducts, setFavProducts] = useState([])
   const [showFavorite, setShowFavorite] = useState(false)
   const MAX_VALUE = getMaxValue(products)
   const [filtros, setFiltros] = useState({
@@ -23,8 +22,6 @@ export const ProductProvider = ({ children }) => {
         products,
         filtros,
         setFiltros,
-        favProducts,
-        setFavProducts,
         MAX_VALUE,
         showFavorite,
         setShowFavorite,

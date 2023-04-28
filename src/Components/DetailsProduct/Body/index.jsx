@@ -17,7 +17,7 @@ export const Body = ({product}) => {
           <img key={imagen} src={imagen} alt='product' />
         ))}
       </section>
-      <div className={tablet.containerbodyRight}>
+      {<div className={tablet.containerbodyRight}>
         <section className={styles.bodyDetails}>
           <div>
             <span className={styles.titleSection}>
@@ -57,7 +57,7 @@ export const Body = ({product}) => {
           </div>
           <HappyCart />
         </section>
-      </div>
+      </div>}
     </div>
   </section>
   )
